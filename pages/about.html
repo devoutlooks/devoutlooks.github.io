@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="../Assets/favic/logo-modified.png" />
+    <link rel="stylesheet" href="../css/about.css">
+    <title>About Us | DevOutlooks</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="../" id="brand" class="nav-logo">DEV OUTLOOKS</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="../index.html" class="nav-link inactive">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="events.html" class="nav-link inactive">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link inactive">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link active">About Us</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+
+        <section id="about">
+            <div id="header">
+                <h1>Dev <span>Outlooks</span></h1>
+                <p>Be The Future</p>
+            </div>
+            <div id="body">
+                <p>Dev Outlooks is a startup which provide courses and bootcamp to students. Aryan Shinde is the founder of Dev Outlooks who is also a instructor in Dev Outlooks.We provide basic level course and bootcamps which are absolutely free, in which we will clear all your basic knowledge of that respective topic of course or bootcamp. Dev Outlooks also provides advanced courses which are in progress. We created it with a motive that poor student who can't afford development coaching classes they should be able to create their career in development. We will like to hear feedback from you. Thank You.</p>
+            </div>
+        </section>
+    </header>
+
+    <footer>
+        <div id="links">
+            <div id="grids">
+                <div id="menu__grid" class="grid">
+                    <h4>Menu</h4>
+                    <a href="../">Home</a>
+                    <a href="events.html">Events</a>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="#">About Us</a>
+                </div>
+                <div id="events__grid" class="grid">
+                    <h4>Events</h4>
+                    <a href="https://forms.gle/qpXWV6dvcGTMbGy57" target="_blank">Website Basics 5 Days Free Bootcamp</a>
+                </div>
+            </div>
+        </div>
+        <div id="footer__links">
+            <div id="brand__name">
+                <h1>DEV OUTLOOKS</h1>
+            </div>
+            <div id="media__links">
+                <div id="instagram__link" class="link">
+                    <a href="https://www.instagram.com/devoutlooks/?hl=en" target="_blank">
+                        <!-- <i class="fab fa-instagram"></i> -->
+                        <img src="../Assets/footer/imgs/instagram.png" alt="">
+                    </a>
+                </div>
+                <div id="youtube__link" class="link">
+                    <a href="https://www.youtube.com/channel/UChy6EHjOJv4vqRtM8kOBw4Q" target="_blank">
+                        <!-- <i class="fab fa-youtube"></i> -->
+                        <img src="../Assets/footer/imgs/youtube.png" alt="">
+                    </a>
+                </div>
+                <div id="telegram__link" class="link">
+                    <a href="https://t.me/joinchat/cwjshUApOPQ1YjI1" target="_blank">
+                        <!-- <i class="fab fa-telegram-plane"></i> -->
+                        <img src="../Assets/footer/imgs/telegram.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+
+        hamburger.addEventListener("click", mobileMenu);
+
+        function mobileMenu() {
+            hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        }
+    </script>
+
+    <script src="https://kit.fontawesome.com/21b053dfd6.js" crossorigin="anonymous"></script>
+</body>
+</html>

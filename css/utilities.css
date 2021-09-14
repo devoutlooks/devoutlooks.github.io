@@ -1,0 +1,15 @@
+.active {
+    color: #ffffff;
+}
+
+.active:hover {
+    color: #ffffff;
+}
+
+.inactive {
+    color: #f8f7f7e0;
+}
+
+.inactive:hover {
+    color: #ffffff;
+}

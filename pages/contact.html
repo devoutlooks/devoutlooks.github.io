@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="../Assets/favic/logo-modified.png" />
+    <link rel="stylesheet" href="../css/contact.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Contact Us | DevOutlooks</title>
+</head>
+<body>
+    <header class="header">
+            <nav class="navbar">
+                <a href="../index.html" id="brand" class="nav-logo">DEV OUTLOOKS</a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="../" class="nav-link inactive">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="events.html" class="nav-link inactive">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link inactive">About Us</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+    </header>
+
+    <section id="contact__us">
+        <h1>Contact <span>Us</span></h1>
+        <p>You are most welcomed to contact us. Thank You</p>
+        <div id="form" class="form">
+            <form method="post" autocomplete="off" name="devoutlooks"" autocomplete="off">
+                <div id="name__email__input__group" class="input__group">
+                    <input type="text" name="name" id="name__input" placeholder="Enter Your Name" required>
+
+                    <input type="email" name="email" id="email__input" placeholder="Enter Your Email" required>
+                </div>
+                <div id="subject__input__group" class="input__group">
+                    <input type="text" id="subject__input" name="subject" placeholder="Enter Your Subject" required>
+                </div>
+                <div id="message__textarea__group" class="textarea__group input__group">
+                    <textarea id="message__textarea" name="message" style="resize: none;" rows="5" placeholder="Enter Your Message" required></textarea>
+                </div>
+                <div id="send__btn">
+                    <button id="send" type="submit" class="contact_btn">Contact</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div id="links">
+            <div id="grids">
+                <div id="menu__grid" class="grid">
+                    <h4>Menu</h4>
+                    <a href="../">Home</a>
+                    <a href="events.html">Events</a>
+                    <a href="#">Contact Us</a>
+                    <a href="about.html">About Us</a>
+                </div>
+                <div id="events__grid" class="grid">
+                    <h4>Events</h4>
+                    <a href="https://forms.gle/qpXWV6dvcGTMbGy57" target="_blank">Website Basics 5 Days Free Bootcamp</a>
+                </div>
+            </div>
+        </div>
+        <div id="footer__links">
+            <div id="brand__name">
+                <h1>DEV <span>OUTLOOKS</span></h1>
+            </div>
+            <div id="media__links">
+                <div id="instagram__link" class="link">
+                    <a href="https://www.instagram.com/devoutlooks/?hl=en" target="_blank">
+                        <!-- <i class="fab fa-instagram"></i> -->
+                        <img src="../Assets/footer/imgs/instagram.png" alt="">
+                    </a>
+                </div>
+                <div id="youtube__link" class="link">
+                    <a href="https://www.youtube.com/channel/UChy6EHjOJv4vqRtM8kOBw4Q" target="_blank">
+                        <!-- <i class="fab fa-youtube"></i> -->
+                        <img src="../Assets/footer/imgs/youtube.png" alt="">
+                    </a>
+                </div>
+                <div id="telegram__link" class="link">
+                    <a href="https://t.me/joinchat/cwjshUApOPQ1YjI1" target="_blank">
+                        <!-- <i class="fab fa-telegram-plane"></i> -->
+                        <img src="../Assets/footer/imgs/telegram.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+
+        hamburger.addEventListener("click", mobileMenu);
+
+        function mobileMenu() {
+            hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        }
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw_UdLjzEceXVzZ7euj4gASC8uEHhHuLVG2pn3UNsMOpNMVD9chGEuKt5wUYbXm3UGf/exec'
+        const form = document.forms['devoutlooks']
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/21b053dfd6.js" crossorigin="anonymous"></script>
+</body>
+</html>
