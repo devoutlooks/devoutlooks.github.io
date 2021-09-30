@@ -452,9 +452,91 @@ header #hero #hero__text__wrapper a#startbtn {
 }
 /* Upcoming Events Section Ends */
 
+/* Want To Teach Section Starts */
+#want__to__teach {
+    background-color: #ffd500;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+/* linear-gradient(310deg,#ffd500c9,#ffd500ea) */
+#want__to__teach h1 {
+    font-size: 2.2rem;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+#want__to__teach h1 span {
+    color: #ffffff;
+}
+
+#want__to__teach p {
+    font-size: 1.1rem;
+    color: #000000;
+    line-height: 1.5rem;
+    margin-bottom: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+#want__to__teach #form form #name__email__input__group #name__input {
+    margin-bottom: 1rem;
+    padding: .5rem .8rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border: 1px solid #000000;
+    border-radius: 2px;
+}
+
+#want__to__teach #form form #name__email__input__group #email__input {
+    margin-bottom: 1rem;
+    padding: .5rem .8rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border: 1px solid #000000;
+    border-radius: 2px;
+}
+
+#want__to__teach #dev__outlooks__instructors__hiring #form form #what__skills__input__group #what__skills__input {
+    margin-bottom: 1rem;
+    padding: .5rem .8rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border: 1px solid #000000;
+    border-radius: 2px;
+}
+
+#want__to__teach #dev__outlooks__instructors__hiring #form form #suggestions__textarea__group #suggestions__textarea {
+    margin-bottom: 1rem;
+    padding: .5rem .8rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border: 1px solid #000000;
+    border-radius: 2px;
+}
+
+#want__to__teach #form form .input__group input {
+    width: 250px;
+}
+
+#want__to__teach #form form #suggestions__textarea__group textarea {
+    width: 250px;
+}
+
+#want__to__teach #form form #send__btn button {
+    background-color: #000000;
+    color: #ffd500;
+    padding: .8rem 1rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+}
+/* Contact Us Section Ends */
+
 /* Footer Section Starts */
 footer {
-    background: #ffd500;
+    background: #000000;
     padding: 3.5rem 2rem;
 }
 
@@ -469,6 +551,7 @@ footer #links #grids .grid {
 }
 
 footer #links #grids .grid h4 {
+    color: #ffd500;
     font-weight: bold;
     font-size: 1.4rem;
     font-family: "Roboto", sans-serif;
@@ -476,7 +559,7 @@ footer #links #grids .grid h4 {
 }
 
 footer #links #grids .grid a {
-    color: #000000;
+    color: #ffffff;
     font-size: 1.1rem;
     font-family: 'Roboto', sans-serif;
     margin-bottom: .5rem;
@@ -489,6 +572,11 @@ footer #footer__links {
 footer #footer__links #brand__name h1 {
     font-size: 1.8rem;
     font-family: Anurati;
+    color: #ffd500;
+}
+
+footer #footer__links #brand__name h1 span {
+    color: #ffffff;
 }
 
 footer #footer__links #media__links {
@@ -778,6 +866,86 @@ footer #footer__links #media__links .link a img {
     }
     /* Meet Out Instructor Section Ends */
 
+    /* Contact Us Section Starts */
+    #contact__us {
+        background-image: linear-gradient(310deg,#ffd500c9,#ffd500ea);
+        padding: 3rem 2rem;
+        text-align: center;
+    }
+
+    #contact__us h1 {
+        font-size: 2.2rem;
+        text-align: center;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    #contact__us h1 span {
+        color: #ffffff;
+    }
+
+    #contact__us p {
+        font-size: 1rem;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 1.5rem;
+    }
+
+    #contact__us #form form #name__email__input__group #name__input {
+        margin-bottom: 1rem;
+        padding: .5rem .8rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-radius: 2px;
+    }
+
+    #contact__us #form form #name__email__input__group #email__input {
+        margin-bottom: 1rem;
+        padding: .5rem .8rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-radius: 2px;
+    }
+
+    #contact__us #form form .input__group #subject__input {
+        margin-bottom: 1rem;
+        padding: .5rem .8rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-radius: 2px;
+    }
+
+    #contact__us #form form #message__textarea__group #message__textarea {
+        margin-bottom: 1rem;
+        padding: .5rem .8rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-radius: 2px;
+    }
+
+    #contact__us #form form .input__group input {
+        width: 250px;
+    }
+
+    #contact__us #form form #message__textarea__group textarea {
+        width: 250px;
+    }
+
+    #contact__us #form form #send__btn button {
+        background-color: #000000;
+        color: #ffd500;
+        padding: .8rem 1rem;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 4px;
+    }
+    /* Contact Us Section Ends */
+
     /* Learn From Books Section Starts */
     #see__books__from__devoutlooks {
         padding: 4rem 2rem;
@@ -934,6 +1102,87 @@ footer #footer__links #media__links .link a img {
         background-color: #000000;
     }
     /* Upcoming Events Section Ends */
+
+    /* Want To Teach Section Starts */
+    #want__to__teach {
+        background-color: #ffd500;
+        padding: 3rem 2rem;
+        text-align: center;
+    }
+    /* linear-gradient(310deg,#ffd500c9,#ffd500ea) */
+    #want__to__teach h1 {
+        font-size: 2.2rem;
+        text-align: center;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    #want__to__teach h1 span {
+        color: #ffffff;
+    }
+
+    #want__to__teach p {
+        font-size: 1.1rem;
+        color: #000000;
+        line-height: 1.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    #want__to__teach #form form #name__email__input__group #name__input {
+        margin-bottom: 1rem;
+        padding: .5rem .8rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-radius: 2px;
+    }
+
+    #want__to__teach #form form #name__email__input__group #email__input {
+        margin-bottom: 1rem;
+        padding: .5rem .8rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-radius: 2px;
+    }
+
+    #want__to__teach #dev__outlooks__instructors__hiring #form form #what__skills__input__group #what__skills__input {
+        margin-bottom: 1rem;
+        padding: .5rem .8rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-radius: 2px;
+    }
+
+    #want__to__teach #dev__outlooks__instructors__hiring #form form #suggestions__textarea__group #suggestions__textarea {
+        margin-bottom: 1rem;
+        padding: .5rem .8rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-radius: 2px;
+    }
+
+    #want__to__teach #form form .input__group input {
+        width: 250px;
+    }
+
+    #want__to__teach #form form #suggestions__textarea__group textarea {
+        width: 250px;
+    }
+
+    #want__to__teach #form form #send__btn button {
+        background-color: #000000;
+        color: #ffd500;
+        padding: .8rem 1rem;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 4px;
+    }
+    /* Contact Us Section Ends */
 
     /* Footer Section Starts */
     footer {
@@ -1227,6 +1476,86 @@ footer #footer__links #media__links .link a img {
     }
     /* Meet Out Instructor Section Ends */
 
+    /* Contact Us Section Starts */
+    #contact__us {
+        background-image: linear-gradient(310deg,#ffd500c9,#ffd500ea);
+        padding: 3rem 2rem;
+        text-align: center;
+    }
+
+    #contact__us h1 {
+        font-size: 2.2rem;
+        text-align: center;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    #contact__us h1 span {
+        color: #ffffff;
+    }
+
+    #contact__us p {
+        font-size: 1rem;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 1.5rem;
+    }
+
+    #contact__us #form form #name__email__input__group #name__input {
+        margin-bottom: 1rem;
+        padding: .5rem .8rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-radius: 2px;
+    }
+
+    #contact__us #form form #name__email__input__group #email__input {
+        margin-bottom: 1rem;
+        padding: .5rem .8rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-radius: 2px;
+    }
+
+    #contact__us #form form .input__group #subject__input {
+        margin-bottom: 1rem;
+        padding: .5rem .8rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-radius: 2px;
+    }
+
+    #contact__us #form form #message__textarea__group #message__textarea {
+        margin-bottom: 1rem;
+        padding: .5rem .8rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-radius: 2px;
+    }
+
+    #contact__us #form form .input__group input {
+        width: 250px;
+    }
+
+    #contact__us #form form #message__textarea__group textarea {
+        width: 250px;
+    }
+
+    #contact__us #form form #send__btn button {
+        background-color: #000000;
+        color: #ffd500;
+        padding: .8rem 1rem;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 4px;
+    }
+    /* Contact Us Section Ends */
+
     /* Learn From Books Section Starts */
     #see__books__from__devoutlooks {
         padding: 4rem 2rem;
@@ -1384,9 +1713,102 @@ footer #footer__links #media__links .link a img {
     }
     /* Upcoming Events Section Ends */
 
+    /* Want To Teach Section Starts */
+    #want__to__teach {
+        background-color: #ffd500;
+        padding: 4rem 2rem;
+        text-align: center;
+    }
+    
+    #want__to__teach h1 {
+        font-size: 3rem;
+        text-align: center;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    #want__to__teach h1 span {
+        color: #ffffff;
+    }
+
+    #want__to__teach p {
+        font-size: 1.5rem;
+        color: #000000;
+        line-height: 1.75rem;
+        margin-bottom: 2.5rem;
+    }
+
+    #want__to__teach #form form #name__email__input__group { 
+        display: flex;
+        justify-content: center;
+    }
+
+    #want__to__teach #form form #name__email__input__group #name__input {
+        margin-bottom: 1.2rem;
+        padding: .75rem .95rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 1rem;
+        border: 1px solid #000000;
+        border-radius: 4px;
+        margin-right: 1rem;
+    }
+
+    #want__to__teach #form form #name__email__input__group #email__input {
+        margin-bottom: 1.2rem;
+        padding: .75rem .95rem;
+        font-size: 1rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-radius: 4px;
+    }
+
+    #want__to__teach #dev__outlooks__instructors__hiring #form form #what__skills__input__group #what__skills__input {
+        margin-bottom: 1.2rem;
+        padding: .75rem .95rem;
+        font-size: 1rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-radius: 4px;
+        width: 400px;
+    }
+
+    #want__to__teach #dev__outlooks__instructors__hiring #form form #suggestions__textarea__group #suggestions__textarea {
+        margin-bottom: 1.5rem;
+        padding: .75rem .95rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 1rem;
+        border: 1px solid #000000;
+        border-radius: 4px;
+        width: 400px;
+    }
+
+    /* #want__to__teach #form form .input__group input {
+        width: 250px;
+    }
+
+    #want__to__teach #form form #suggestions__textarea__group textarea {
+        width: 400px;
+    } */
+
+    #want__to__teach #form form #send__btn button {
+        background-color: #000000;
+        color: #ffd500;
+        padding: 1rem 1.4rem;
+        border: none;
+        outline: none;
+        font-size: 1.4rem;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 6px;
+    }
+    /* Contact Us Section Ends */
+
     /* Footer Section Starts */
     footer {
-        background: #ffd500;
+        background: #000000;
         padding: 4rem 4rem;
     }
 
@@ -1413,7 +1835,7 @@ footer #footer__links #media__links .link a img {
     }
 
     footer #links #grids .grid a {
-        color: #000000;
+        color: #ffffff;
         font-size: 1.35rem;
         font-family: 'Roboto', sans-serif;
         margin-bottom: .68rem;
@@ -1629,6 +2051,86 @@ footer #footer__links #media__links .link a img {
     }
     /* Meet Out Instructor Section Ends */
 
+    /* Contact Us Section Starts */
+    #contact__us {
+        background-image: linear-gradient(310deg,#ffd500c9,#ffd500ea);
+        padding: 3rem 2rem;
+        text-align: center;
+    }
+
+    #contact__us h1 {
+        font-size: 2.2rem;
+        text-align: center;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    #contact__us h1 span {
+        color: #ffffff;
+    }
+
+    #contact__us p {
+        font-size: 1rem;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 1.5rem;
+    }
+
+    #contact__us #form form #name__email__input__group #name__input {
+        margin-bottom: 1rem;
+        padding: .5rem .8rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-radius: 2px;
+    }
+
+    #contact__us #form form #name__email__input__group #email__input {
+        margin-bottom: 1rem;
+        padding: .5rem .8rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-radius: 2px;
+    }
+
+    #contact__us #form form .input__group #subject__input {
+        margin-bottom: 1rem;
+        padding: .5rem .8rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-radius: 2px;
+    }
+
+    #contact__us #form form #message__textarea__group #message__textarea {
+        margin-bottom: 1rem;
+        padding: .5rem .8rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-radius: 2px;
+    }
+
+    #contact__us #form form .input__group input {
+        width: 250px;
+    }
+
+    #contact__us #form form #message__textarea__group textarea {
+        width: 250px;
+    }
+
+    #contact__us #form form #send__btn button {
+        background-color: #000000;
+        color: #ffd500;
+        padding: .8rem 1rem;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 4px;
+    }
+    /* Contact Us Section Ends */
+
     /* Learn From Books Section Starts */
     #see__books__from__devoutlooks {
         padding: 4.4rem 2rem;
@@ -1784,9 +2286,91 @@ footer #footer__links #media__links .link a img {
     }
     /* Upcoming Events Section Ends */
 
+    /* Want To Teach Section Starts */
+    #want__to__teach {
+        background-color: #ffd500;
+        padding: 4.5rem 5rem;
+        text-align: center;
+    }
+    /* linear-gradient(310deg,#ffd500c9,#ffd500ea) */
+    #want__to__teach h1 {
+        font-size: 3.5rem;
+        text-align: center;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    #want__to__teach h1 span {
+        color: #ffffff;
+    }
+
+    #want__to__teach p {
+        font-size: 1.7rem;
+        margin-bottom: 2rem;
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.9rem;
+    }
+
+    #want__to__teach #form form #name__email__input__group #name__input {
+        margin-bottom: 1.5rem;
+        margin-right: .8rem;
+        padding: .9rem 1.2rem;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.3rem;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-radius: 6px;
+        width: 280px;
+    }
+
+    #want__to__teach #form form #name__email__input__group #email__input {
+        margin-bottom: 1.5rem;
+        padding: .9rem 1.2rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 1.3rem;
+        border: 1px solid #000000;
+        border-radius: 6px;
+        width: 280px;
+    }
+
+    #want__to__teach #dev__outlooks__instructors__hiring #form form #what__skills__input__group #what__skills__input {
+        margin-bottom: 1.5rem;
+        padding: .9rem 1.2rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 1.3rem;
+        border: 1px solid #000000;
+        border-radius: 6px;
+        width: 400px;
+    }
+
+    #want__to__teach #dev__outlooks__instructors__hiring #form form #suggestions__textarea__group #suggestions__textarea {
+        margin-bottom: 1.5rem;
+        padding: .9rem 1.2rem;
+        font-size: 1.3rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-radius: 6px;
+        width: 400px;
+    }
+
+    #want__to__teach #form form #send__btn button {
+        background-color: #000000;
+        color: #ffd500;
+        padding: 1.4rem 1.8rem;
+        border: none;
+        outline: none;
+        font-size: 1.6rem;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 6px;
+    }
+    /* Contact Us Section Ends */
+
     /* Footer Section Starts */
     footer {
-        background: #ffd500;
+        background: #000000;
         padding: 5rem 7rem;
     }
 
@@ -1813,7 +2397,7 @@ footer #footer__links #media__links .link a img {
     }
 
     footer #links #grids .grid a {
-        color: #000000;
+        color: #ffffff;
         font-size: 1.8rem;
         font-family: 'Roboto', sans-serif;
         margin-bottom: .8rem;
@@ -2028,6 +2612,86 @@ footer #footer__links #media__links .link a img {
     }
     /* Meet Out Instructor Section Ends */
 
+    /* Contact Us Section Starts */
+    #contact__us {
+        background-image: linear-gradient(310deg,#ffd500c9,#ffd500ea);
+        padding: 3rem 2rem;
+        text-align: center;
+    }
+
+    #contact__us h1 {
+        font-size: 2.2rem;
+        text-align: center;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    #contact__us h1 span {
+        color: #ffffff;
+    }
+
+    #contact__us p {
+        font-size: 1rem;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 1.5rem;
+    }
+
+    #contact__us #form form #name__email__input__group #name__input {
+        margin-bottom: 1rem;
+        padding: .5rem .8rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-radius: 2px;
+    }
+
+    #contact__us #form form #name__email__input__group #email__input {
+        margin-bottom: 1rem;
+        padding: .5rem .8rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-radius: 2px;
+    }
+
+    #contact__us #form form .input__group #subject__input {
+        margin-bottom: 1rem;
+        padding: .5rem .8rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-radius: 2px;
+    }
+
+    #contact__us #form form #message__textarea__group #message__textarea {
+        margin-bottom: 1rem;
+        padding: .5rem .8rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-radius: 2px;
+    }
+
+    #contact__us #form form .input__group input {
+        width: 250px;
+    }
+
+    #contact__us #form form #message__textarea__group textarea {
+        width: 250px;
+    }
+
+    #contact__us #form form #send__btn button {
+        background-color: #000000;
+        color: #ffd500;
+        padding: .8rem 1rem;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 4px;
+    }
+    /* Contact Us Section Ends */
+
     /* Learn From Books Section Starts */
     #see__books__from__devoutlooks {
         padding: 4.6rem 2rem;
@@ -2198,9 +2862,91 @@ footer #footer__links #media__links .link a img {
     }
     /* Upcoming Events Section Ends */
 
+    /* Want To Teach Section Starts */
+    #want__to__teach {
+        background-color: #ffd500;
+        padding: 5rem 5.5rem;
+        text-align: center;
+    }
+    /* linear-gradient(310deg,#ffd500c9,#ffd500ea) */
+    #want__to__teach h1 {
+        font-size: 4.5rem;
+        text-align: center;
+        font-family: 'Kanit', sans-serif;
+    }
+
+    #want__to__teach h1 span {
+        color: #ffffff;
+    }
+
+    #want__to__teach p {
+        font-size: 1.9rem;
+        color: #000000;
+        line-height: 2rem;
+        margin-bottom: 2.4rem;
+    }
+
+    #want__to__teach #form form #name__email__input__group #name__input {
+        margin-bottom: 2.2rem;
+        margin-right: 1.4rem;
+        padding: 1.2rem 1.8rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 1.6rem;
+        width: 350px;
+        border: 1px solid #000000;
+        border-radius: 6px;
+    }
+
+    #want__to__teach #form form #name__email__input__group #email__input {
+        margin-bottom: 2.2rem;
+        padding: 1.2rem 1.8rem;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.6rem;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-radius: 6px;
+        width: 350px;
+    }
+
+    #want__to__teach #dev__outlooks__instructors__hiring #form form #what__skills__input__group #what__skills__input {
+        margin-bottom: 2.2rem;
+        padding: 1.2rem 1.8rem;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.6rem;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-radius: 6px;
+        width: 500px;
+    }
+
+    #want__to__teach #dev__outlooks__instructors__hiring #form form #suggestions__textarea__group #suggestions__textarea {
+        margin-bottom: 2.2rem;
+        padding: 1.2rem 1.8rem;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.6rem;
+        font-weight: bold;
+        border: 1px solid #000000;
+        border-radius: 6px;
+        width: 500px;
+    }
+
+    #want__to__teach #form form #send__btn button {
+        background-color: #000000;
+        color: #ffd500;
+        padding: 1.8rem 2.5rem;
+        border: none;
+        outline: none;
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 6px;
+    }
+    /* Contact Us Section Ends */
+
     /* Footer Section Starts */
     footer {
-        background: #ffd500;
+        background: #000000;
         padding: 6rem 8rem;
     }
 
@@ -2227,7 +2973,7 @@ footer #footer__links #media__links .link a img {
     }
 
     footer #links #grids .grid a {
-        color: #000000;
+        color: #ffffff;
         font-size: 2.2rem;
         font-family: 'Roboto', sans-serif;
         margin-bottom: 1rem;
