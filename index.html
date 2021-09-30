@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="Dev Outlooks">
-    <meta name="description" content="Dev Oulooks is a platform where you learn updated technologies. You get the direct contact to your instructor for your all doubts. We are online 24/7. You are welcomed in Dev Outlooks.">
     <link rel="icon" type="image/svg+xml" href="Assets/favic/logo-modified.png" />
     <link rel="stylesheet" href="css/style.css">
     <title>Home | DevOutlooks</title>
@@ -113,7 +111,7 @@
         <div id="events">
             <div class="event" id="website__basics__event">
                 <div id="website__basics__img__bootcamp" class="img__bootcamp">
-                    <img src="Assets/BootcampsImgs/HTMLAndCSSBasicsLogo.png" alt="This is the HTML and CSS Basics Bootcamp thumbnail image.">
+                    <img src="Assets/BootcampsImgs/HTMLAndCSSBasicsLogo.png" alt="This is the Website Basics Bootcamp thumbnail image.">
                 </div>
                 <div id="website__basics__body__bootcamp" class="body__bootcamp">
                     <div id="header__body__bootcamp" class="header__bootcamp">
@@ -162,7 +160,7 @@
             </div>
         </div>
     </section>
-    
+
     <section id="want__to__teach">
         <h1 class="want__h1">Want To <span>Teach</span></h1>
         <p class="want__p">Dev Outlooks is hiring instructors. Teaching is the most important part as a <b>guru</b> and <b>shishya</b> gets connected which is a very pure relation.You are welcomed in Dev Outlooks as an instructor. We will be very glad to get instructors like you. Please fill up the below form to be an instructor in Dev Outlooks. Thank You for your cooperation.</p>
@@ -207,7 +205,7 @@
         </div>
         <div id="footer__links">
             <div id="brand__name">
-                <h1>DEV OUTLOOKS</h1>
+                <h1>DEV <span>OUTLOOKS</span></h1>
             </div>
             <div id="media__links">
                 <div id="instagram__link" class="link">
@@ -239,7 +237,18 @@
             hamburger.classList.toggle("active");
             navMenu.classList.toggle("active");
         }
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz4vmC7PohzC9R4YdG49NRKWvSivDGCtzE9EUbZdPdtmNx1gwDSsGp8IAWYkYQGI2ihwA/exec'
+        const form = document.forms['instructors-devoutlooks']
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+        })
     </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <script src="https://kit.fontawesome.com/21b053dfd6.js" crossorigin="anonymous"></script>
 </body>
