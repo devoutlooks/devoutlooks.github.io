@@ -493,13 +493,13 @@ footer #footer__links #media__links .link a img {
 /* Responsive for 768 px and less */
 @media only screen and (min-width: 426px) and (max-width: 768px) {
     header nav {
-        height: 75px;
+        height: 70px;
         padding-left: 6%;
         padding-right: 6%;
     }
     
     header nav #brand {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         font-family: Anurati;
     }
     
@@ -542,7 +542,7 @@ footer #footer__links #media__links .link a img {
         background-color: #ffd500;
         width: 100%;
         text-align: center;
-        transition: 1s ease;
+        transition: .4s ease-in-out;
         box-shadow: 0 10px 27px #ffd500;
     }
 
@@ -581,7 +581,7 @@ footer #footer__links #media__links .link a img {
     }
 
     #contact__us h1 {
-        font-size: 3rem;
+        font-size: 2.7rem;
         text-align: center;
         font-family: 'Kanit', sans-serif;
     }
@@ -591,9 +591,9 @@ footer #footer__links #media__links .link a img {
     }
 
     #contact__us p {
-        font-size: 1.5rem;
+        font-size: 1.35rem;
         font-family: 'Roboto', sans-serif;
-        margin-bottom: 2rem;
+        margin-bottom: 1.8rem;
     }
 
     #contact__us #form form #name__email__input__group {
@@ -602,58 +602,59 @@ footer #footer__links #media__links .link a img {
     }
 
     #contact__us #form form #name__email__input__group #name__input {
-        margin-bottom: 1.2rem;
-        padding: .75rem .95rem;
-        font-size: 1rem;
+        margin-bottom: 1rem;
+        padding: .60rem .75rem;
+        font-size: .9rem;
         font-family: 'Roboto', sans-serif;
         font-weight: bold;
         border: 1px solid #000000;
         border-radius: 4px;
-        margin-right: 1rem;
+        margin-right: 10px;
     }
 
     #contact__us #form form #name__email__input__group #email__input {
-        margin-bottom: 1.2rem;
-        padding: .75rem .95rem;
-        font-size: 1rem;
+        margin-bottom: 1rem;
+        padding: .60rem .75rem;
+        font-size: .9rem;
         font-family: 'Roboto', sans-serif;
         font-weight: bold;
         border: 1px solid #000000;
         border-radius: 4px;
+        margin-left: 10px;
     }
 
     #contact__us #form form .input__group #subject__input {
         margin-bottom: 1.2rem;
-        padding: .75rem .95rem;
-        font-size: 1rem;
+        padding: .60rem .75rem;
+        font-size: .9rem;
         font-family: 'Roboto', sans-serif;
         font-weight: bold;
         border: 1px solid #000000;
         border-radius: 4px;
-        width: 400px;
+        width: 350px;
     }
 
     #contact__us #form form #message__textarea__group #message__textarea {
-        margin-bottom: 1.5rem;
-        padding: .75rem .95rem;
-        font-size: 1rem;
+        margin-bottom: 1.2rem;
+        padding: .60rem .75rem;
+        font-size: .9rem;
         font-family: 'Roboto', sans-serif;
         font-weight: bold;
         border: 1px solid #000000;
         border-radius: 4px;
-        width: 400px;
+        width: 350px;
     }
 
     #contact__us #form form #send__btn button {
         background-color: #000000;
         color: #ffd500;
-        padding: 1rem 1.4rem;
+        padding: .8rem 1rem;
         border: none;
         outline: none;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         font-weight: bold;
         font-family: 'Roboto', sans-serif;
-        border-radius: 6px;
+        border-radius: 8px;
     }
     /* Contact Us Section Ends */
 
@@ -680,14 +681,14 @@ footer #footer__links #media__links .link a img {
 
     footer #links #grids .grid h4 {
         font-weight: bold;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         font-family: "Roboto", sans-serif;
         margin-bottom: .8rem;
     }
 
     footer #links #grids .grid a {
         color: #ffffff;
-        font-size: 1.35rem;
+        font-size: 1.2rem;
         font-family: 'Roboto', sans-serif;
         margin-bottom: .68rem;
     }
@@ -697,7 +698,7 @@ footer #footer__links #media__links .link a img {
     }
 
     footer #footer__links #brand__name h1 {
-        font-size: 2.8rem;
+        font-size: 2.4rem;
         font-family: Anurati;
     }
 
@@ -712,8 +713,9 @@ footer #footer__links #media__links .link a img {
     }
 
     footer #footer__links #media__links .link a img {
-        width: 50px;
+        width: 40px;
         margin-right: 1.2rem;
+        margin-top: .6rem;
     }
 }
 
